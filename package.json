@@ -1,0 +1,41 @@
+{
+  "name": "exec-file-sync",
+  "version": "0.0.0",
+  "description": "Node.js 0.12 ChildProcess.execFileSync() ponyfill",
+  "license": "MIT",
+  "repository": "sindresorhus/exec-file-sync",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "built-in",
+    "core",
+    "ponyfill",
+    "polyfill",
+    "shim",
+    "child",
+    "process",
+    "execfilesync",
+    "execfile",
+    "exec",
+    "file",
+    "sync"
+  ],
+  "dependencies": {
+    "sync-exec": "^0.5.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
