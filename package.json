@@ -1,7 +1,7 @@
 {
   "name": "exec-file-sync",
   "version": "1.0.0",
-  "description": "Node.js 0.12 ChildProcess.execFileSync() ponyfill",
+  "description": "Node.js 0.12 childProcess.execFileSync() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/exec-file-sync",
   "author": {
