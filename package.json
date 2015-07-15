@@ -33,6 +33,8 @@
     "sync"
   ],
   "dependencies": {
+    "is-obj": "^1.0.0",
+    "object-assign": "^3.0.0",
     "spawn-sync": "^1.0.11"
   },
   "devDependencies": {
