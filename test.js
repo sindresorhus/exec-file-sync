@@ -1,8 +1,6 @@
-'use strict';
-var test = require('ava');
-var execFileSync = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(execFileSync('node', ['fixture.js', 'unicorn'], {cwd: __dirname}).toString().trim() === 'unicorn');
-	t.end();
+test(t => {
+	t.is(m('node', ['fixture.js', 'unicorn'], {cwd: __dirname}).toString().trim(), 'unicorn');
 });
